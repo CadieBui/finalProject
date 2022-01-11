@@ -66,16 +66,17 @@ input.btn.active {
 }
 
 .infor_OK {
-    width: 300px;
+    width: 400px;
     margin: 20px auto;
 }
 
 .infor_OK>button {
-    width: 300px;
+    width: 100px;
     height: 40px;
     font-size: 18px;
     background-color: #3e5a46;
     color: white;
+    padding: 0 5px;
 }
 
 button.btn:hover,

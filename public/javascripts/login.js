@@ -278,9 +278,9 @@ function infor(data) {
     
     
         </div>
-        <div class="infor_OK row">
-            <button class="btn col-2" onclick='edit()'>Edit</button>
-            <a class="changePW col-10 fs-4" onclick='openChangePw()' data-toggle='modal' data-bs-target='#changePsModalID'>Or you want to change password</a>
+        <div class="infor_OK ">
+            <button class="btn" onclick='edit()'>Edit</button>
+            <a class="changePW fs-4" onclick='openChangePw()' data-toggle='modal' data-bs-target='#changePsModalID'>Or you want to change password</a>
 
         </div>       
 
