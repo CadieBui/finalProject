@@ -22,13 +22,6 @@ var aboutRouter = require('./routes/aboutRoute');
 var aboutRouterG = require('./routes/aboutRouteG');
 
 
-//In app.js
-// mongoose.connect("mongodb://127.0.0.1:3000/");
-// app.use(require("express-session")({
-//     secret: "Any normal Word", //decode or encode session
-//     resave: false,
-//     saveUninitialized: false
-// }));
 
 
 app.set('views', path.join(__dirname, 'views'));
