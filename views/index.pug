@@ -54,16 +54,16 @@ include includes/navigation
     img#item-1
     img#item-2
     img#item-3
-  // -----------------首頁月曆表格---------------------
+  // -----------------首頁月曆表格---------------------//下面的
   #calendar_home.table-responsive-xxl
     table#home_calender_table
       thead.color
         tr
           th.border-color(colspan='7')
             #home_Date.text-align_center
-              i.glyphicon.glyphicon-menu-left.icon_btn(onclick='previousMonth();')
+              i.glyphicon.glyphicon-menu-left.icon_btn(onclick='previousMonthH();')
               h3#home_cal-month December ,2020
-              i.glyphicon.glyphicon-menu-right.icon_btn(onclick='nextMonth();')
+              i.glyphicon.glyphicon-menu-right.icon_btn(onclick='nextMonthH();')
         tr
           th.weekday.border-color Sun
           th.weekday.border-color Mon
@@ -144,7 +144,7 @@ include includes/navigation
               p Add folder
               input#yourfolder_i(type='text', placeholder='  | folder name')
               img#add_fol_i(src='img/add.png', alt)
-  //-----------------月曆表格-----------------
+  //-----------------月曆表格-----------------//上面的
   #cal_win.table-responsive-sm
     img#cal_close(src='img/close_g2.png')
     table#calender_table
@@ -312,5 +312,8 @@ script.
   let thisYear = today.getFullYear();
   let thisMonth = today.getMonth();
   let thisDate = today.getDate();
+  let thisYearH = today.getFullYear();
+  let thisMonthH = today.getMonth();
+  let thisDateH = today.getDate();
   updateDates();
   fillInMonth(thisYear, thisMonth, thisDate);
